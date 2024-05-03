@@ -4,12 +4,18 @@
 
 function myFunction(str) {
     if (typeof str === "string") {
-        let text = str.toLowerCase()
-        let repeatStr = text.reve
-        console.log(text);
+        let text = str.toLowerCase().replace(/\s/g, ''); // .replace(/\s/g, '') 
+        return text === text.split('').reverse().join('');
     } else {
         console.log("không hợp lệ");
     }
 }
-myFunction("Race car");
-console.log("hello");
+console.log(myFunction("A L O L "));
+console.log(myFunction("Race car"));
+console.log(myFunction("hello world"));
+console.log(myFunction("xin chao"));
+console.log(myFunction("O L O l O"));
+
+
+
+
