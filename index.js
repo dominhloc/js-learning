@@ -10,12 +10,12 @@
 
 ///// bai lam 1
 
-// function myFunction(obj) {
-//     return Object.keys(obj)
-// }
-// var user = { name: "Nguyễn Tiến Đạt", age: 25, email: 'support@xtp.vn ' };
-// var key = myFunction(user);
-// console.log(key);
+function myFunction(obj) {
+    return Object.keys(obj)
+}
+var user = { name: "Nguyễn Tiến Đạt", age: 25, email: 'support@xtp.vn ' };
+var key = myFunction(user);
+console.log(key);
 
 
 //// bai lam 2
