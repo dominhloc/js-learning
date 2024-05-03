@@ -15,7 +15,3 @@ console.log(myFunction("Race car"));
 console.log(myFunction("hello world"));
 console.log(myFunction("xin chao"));
 console.log(myFunction("O L O l O"));
-
-
-
-
