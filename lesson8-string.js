@@ -10,7 +10,6 @@ function myFunction(str) {
         console.log("không hợp lệ");
     }
 }
-
 console.log(myFunction("A L O L "));
 console.log(myFunction("Race car"));
 console.log(myFunction("hello world"));
