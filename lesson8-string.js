@@ -12,3 +12,4 @@ function myFunction(str) {
     }
 }
 myFunction("Race car");
+console.log("hello");
