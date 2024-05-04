@@ -19,6 +19,3 @@ checkStringExist("love you", "love")
 checkStringExist("love you", 1)
 checkStringExist("love you", null)
 checkStringExist("love you", undefined)
-
-
-
