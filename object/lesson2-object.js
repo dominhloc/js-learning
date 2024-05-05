@@ -22,6 +22,7 @@ function myFunction(obj) {
     return " error "
 }
 
+
 console.log(myFunction(user))
 console.log(myFunction(user1))
 console.log(myFunction(user2))
