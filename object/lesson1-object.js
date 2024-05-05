@@ -28,3 +28,6 @@ console.log(myFunction(user))
 console.log(myFunction(user1))
 console.log(myFunction(user2))
 console.log(myFunction(user3))
+
+
+
